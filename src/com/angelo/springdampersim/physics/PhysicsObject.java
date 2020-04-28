@@ -132,7 +132,7 @@ public class PhysicsObject implements IRendering{
 		
 		friction.normalize();
 		
-		friction.scale(0.7 * load.length());
+		friction.scale(0.9 * load.length());
 
 		force.add(friction);
 		
@@ -193,7 +193,7 @@ public class PhysicsObject implements IRendering{
 						return;
 					}
 					
-					double e = 1;
+					double e = 0.5;
 					
 					double j = -(1 + e) * velAlongNormal;
 					

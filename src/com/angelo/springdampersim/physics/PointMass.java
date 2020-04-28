@@ -5,7 +5,7 @@ import java.awt.Graphics2D;
 
 public class PointMass extends PhysicsObject{
 
-	public static final double LENGTH = 0.15;
+	public static final double LENGTH = 0.2;
 	public static double MASS = 0.001;
 	
 	public PointMass(double x, double y) {

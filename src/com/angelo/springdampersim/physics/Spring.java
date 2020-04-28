@@ -123,7 +123,7 @@ public class Spring implements IRendering{
 	}
 	
 	public boolean connectedToFixedPoint() {
-		return fixedPoint == null ? false : true;
+		return fixedPoint != null;
 	}
 
 	boolean renderSimpleSpring = true;
